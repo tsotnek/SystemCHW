@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.cpp
-unistd.h
+/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.h
+systemc.h
+-
+
+/home/tsotne/SystemCExercises/SCVP.Exercise5/main.cpp
+iostream
 -
 systemc.h
 -
 kpn.h
 /home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.h
-
-/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.h
-systemc.h
--
 
