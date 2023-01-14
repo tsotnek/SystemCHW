@@ -1,0 +1,276 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "HelloSystemC",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "HelloSystemC",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Clockgenerator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Clockgenerator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "SCVP.Exercise2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "SCVP.Exercise2",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "SCVP.Exercise3",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "SCVP.Exercise3",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "SCVP.Exercise4",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "SCVP.Exercise4",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "SCVP.Exercise5",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "SCVP.Exercise5",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "testingCPP",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "testingCPP",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "SCVP_Artifacts",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Exercise2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Exercise3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Exercise4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Exercise5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "testingCPP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Clockgenerator::@0a1f42bb7ba34ef04c48",
+					"jsonFile" : "target-Clockgenerator-Debug-8f8b95c9e85df1799a74.json",
+					"name" : "Clockgenerator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HelloSystemC::@034c0d432fec12b73cc2",
+					"jsonFile" : "target-HelloSystemC-Debug-1df53f810b8ebfbb5ba0.json",
+					"name" : "HelloSystemC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "exercise2::@99d50d19dc93833cf98f",
+					"jsonFile" : "target-exercise2-Debug-cf6b5c25dfe40bd8c548.json",
+					"name" : "exercise2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "exercise3::@405cd31c66efb60a9f92",
+					"jsonFile" : "target-exercise3-Debug-b261b5a3abfb5d6eb968.json",
+					"name" : "exercise3",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "exercise4::@b53251efd72d8c643254",
+					"jsonFile" : "target-exercise4-Debug-5063661581cb99f6892d.json",
+					"name" : "exercise4",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "exercise5::@73a694a18d988919099d",
+					"jsonFile" : "target-exercise5-Debug-71e7c5e0ddc197875110.json",
+					"name" : "exercise5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "testingCPP::@d1b7de945015ce4b4e54",
+					"jsonFile" : "target-testingCPP-Debug-fd3b9a3a4618f6981c73.json",
+					"name" : "testingCPP",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tsotne/SystemCExercises/build",
+		"source" : "/home/tsotne/SystemCExercises"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

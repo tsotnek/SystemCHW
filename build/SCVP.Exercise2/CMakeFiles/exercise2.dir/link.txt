@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/exercise2.dir/exor_main.cpp.o  -o exercise2  -Wl,-rpath,/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64 /mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so 

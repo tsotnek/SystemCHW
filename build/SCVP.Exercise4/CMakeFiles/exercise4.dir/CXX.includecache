@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/SCVP.Exercise4/main.cpp
+systemc.h
+-
+place.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/place.h
+transition.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/transition.h
+subnet.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/subnet.h
+
+/home/tsotne/SystemCExercises/SCVP.Exercise4/place.h
+systemc.h
+-
+iostream
+-
+
+/home/tsotne/SystemCExercises/SCVP.Exercise4/subnet.h
+systemc.h
+-
+place.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/place.h
+transition.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/transition.h
+
+/home/tsotne/SystemCExercises/SCVP.Exercise4/transition.h
+systemc.h
+-
+place.h
+/home/tsotne/SystemCExercises/SCVP.Exercise4/place.h
+

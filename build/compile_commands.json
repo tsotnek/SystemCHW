@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/tsotne/SystemCExercises/build/HelloSystemC",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/HelloSystemC.dir/main.cpp.o -c /home/tsotne/SystemCExercises/HelloSystemC/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/HelloSystemC/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Clockgenerator",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/Clockgenerator.dir/main.cpp.o -c /home/tsotne/SystemCExercises/Clockgenerator/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/Clockgenerator/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise2",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise2.dir/exor_main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise2/exor_main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise2/exor_main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise3",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise3.dir/main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise3/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise3/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise3",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise3.dir/state_machine.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise3/state_machine.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise3/state_machine.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise3",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise3.dir/stimuli.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise3/stimuli.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise3/stimuli.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise4",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise4.dir/main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise4/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise4/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise5",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise5.dir/main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise5/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise5/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise5",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise5.dir/kpn.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/testingCPP",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/testingCPP.dir/main.cpp.o -c /home/tsotne/SystemCExercises/testingCPP/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/testingCPP/main.cpp"
+}
+]

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/SCVP.Exercise2/exor.h
+systemc.h
+-
+nand.h
+/home/tsotne/SystemCExercises/SCVP.Exercise2/nand.h
+
+/home/tsotne/SystemCExercises/SCVP.Exercise2/exor_main.cpp
+systemc.h
+-
+stim.h
+/home/tsotne/SystemCExercises/SCVP.Exercise2/stim.h
+exor.h
+/home/tsotne/SystemCExercises/SCVP.Exercise2/exor.h
+mon.h
+/home/tsotne/SystemCExercises/SCVP.Exercise2/mon.h
+
+/home/tsotne/SystemCExercises/SCVP.Exercise2/mon.h
+iostream
+-
+systemc.h
+-
+
+/home/tsotne/SystemCExercises/SCVP.Exercise2/nand.h
+systemc.h
+-
+
+/home/tsotne/SystemCExercises/SCVP.Exercise2/stim.h
+systemc.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/exercise5.dir/main.cpp.o CMakeFiles/exercise5.dir/kpn.cpp.o  -o exercise5  -Wl,-rpath,/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64 /mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so 

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/exercise3.dir/main.cpp.o CMakeFiles/exercise3.dir/state_machine.cpp.o CMakeFiles/exercise3.dir/stimuli.cpp.o  -o exercise3  -Wl,-rpath,/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64 /mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so 

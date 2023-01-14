@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.cpp
+unistd.h
+-
+systemc.h
+-
+kpn.h
+/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.h
+
+/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.h
+systemc.h
+-
+
