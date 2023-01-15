@@ -1242,6 +1242,18 @@
 			"value" : "/home/tsotne/SystemCExercises"
 		},
 		{
+			"name" : "SYSTEMC_AMS_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "SYSTEMC_AMS_LIBRARY-NOTFOUND"
+		},
+		{
 			"name" : "SYSTEMC_LIBRARY",
 			"properties" : 
 			[

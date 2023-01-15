@@ -10,16 +10,17 @@ private:
     // ADD THINGS HERE
     sc_fifo<T> a, b, c, d;
     sc_signal<T> e;
-    int counter;
-    
+    //T e;
     
     void kpn_add();
+
     void kpn_split();
+    
     void kpn_delay();
 
 public:
 
-    SC_CTOR(kpn) : a(10), b(10), c(10), d(10), e("e"), counter(0) // : ADD THINGS HERE
+    SC_CTOR(kpn) : a(10), b(10), c(10), d(10), e("e", 0) // : ADD THINGS HERE
     {
 
        b.write(1);

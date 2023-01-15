@@ -239,6 +239,9 @@ SCVP_Artifacts_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build
 SCVP_Artifacts_SOURCE_DIR:STATIC=/home/tsotne/SystemCExercises
 
 //Path to a library.
+SYSTEMC_AMS_LIBRARY:FILEPATH=SYSTEMC_AMS_LIBRARY-NOTFOUND
+
+//Path to a library.
 SYSTEMC_LIBRARY:FILEPATH=/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so
 
 //Value Computed by CMake
