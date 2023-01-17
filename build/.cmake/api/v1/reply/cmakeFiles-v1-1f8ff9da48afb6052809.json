@@ -150,6 +150,9 @@
 			"path" : "SCVP.Exercise5/CMakeLists.txt"
 		},
 		{
+			"path" : "SCVP.Exercise6/CMakeLists.txt"
+		},
+		{
 			"path" : "testingCPP/CMakeLists.txt"
 		}
 	],

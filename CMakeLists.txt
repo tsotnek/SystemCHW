@@ -26,6 +26,7 @@ add_subdirectory(SCVP.Exercise2)
 add_subdirectory(SCVP.Exercise3)
 add_subdirectory(SCVP.Exercise4)
 add_subdirectory(SCVP.Exercise5)
+add_subdirectory(SCVP.Exercise6)
 add_subdirectory(testingCPP)
 
 

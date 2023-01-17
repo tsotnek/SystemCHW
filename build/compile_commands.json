@@ -45,6 +45,11 @@
   "file": "/home/tsotne/SystemCExercises/SCVP.Exercise5/kpn.cpp"
 },
 {
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise6",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise6.dir/main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise6/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise6/main.cpp"
+},
+{
   "directory": "/home/tsotne/SystemCExercises/build/testingCPP",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/testingCPP.dir/main.cpp.o -c /home/tsotne/SystemCExercises/testingCPP/main.cpp",
   "file": "/home/tsotne/SystemCExercises/testingCPP/main.cpp"

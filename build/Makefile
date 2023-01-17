@@ -189,6 +189,19 @@ exercise5/fast:
 .PHONY : exercise5/fast
 
 #=============================================================================
+# Target rules for targets named exercise6
+
+# Build rule for target.
+exercise6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise6
+.PHONY : exercise6
+
+# fast build rule for target.
+exercise6/fast:
+	$(MAKE) -f SCVP.Exercise6/CMakeFiles/exercise6.dir/build.make SCVP.Exercise6/CMakeFiles/exercise6.dir/build
+.PHONY : exercise6/fast
+
+#=============================================================================
 # Target rules for targets named testingCPP
 
 # Build rule for target.
@@ -215,6 +228,7 @@ help:
 	@echo "... exercise3"
 	@echo "... exercise4"
 	@echo "... exercise5"
+	@echo "... exercise6"
 	@echo "... testingCPP"
 .PHONY : help
 

@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8"
+			"value" : "9"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1216,6 +1216,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise5"
+		},
+		{
+			"name" : "Exercise6_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise6"
+		},
+		{
+			"name" : "Exercise6_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise6"
 		},
 		{
 			"name" : "SCVP_Artifacts_BINARY_DIR",

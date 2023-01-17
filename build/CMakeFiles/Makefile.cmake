@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../SCVP.Exercise3/CMakeLists.txt"
   "../SCVP.Exercise4/CMakeLists.txt"
   "../SCVP.Exercise5/CMakeLists.txt"
+  "../SCVP.Exercise6/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
@@ -54,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "SCVP.Exercise3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SCVP.Exercise4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SCVP.Exercise5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SCVP.Exercise6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "testingCPP/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -65,5 +67,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "SCVP.Exercise3/CMakeFiles/exercise3.dir/DependInfo.cmake"
   "SCVP.Exercise4/CMakeFiles/exercise4.dir/DependInfo.cmake"
   "SCVP.Exercise5/CMakeFiles/exercise5.dir/DependInfo.cmake"
+  "SCVP.Exercise6/CMakeFiles/exercise6.dir/DependInfo.cmake"
   "testingCPP/CMakeFiles/testingCPP.dir/DependInfo.cmake"
   )

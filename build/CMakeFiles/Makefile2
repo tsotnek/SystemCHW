@@ -59,6 +59,7 @@ all: SCVP.Exercise2/all
 all: SCVP.Exercise3/all
 all: SCVP.Exercise4/all
 all: SCVP.Exercise5/all
+all: SCVP.Exercise6/all
 all: testingCPP/all
 
 .PHONY : all
@@ -70,6 +71,7 @@ preinstall: SCVP.Exercise2/preinstall
 preinstall: SCVP.Exercise3/preinstall
 preinstall: SCVP.Exercise4/preinstall
 preinstall: SCVP.Exercise5/preinstall
+preinstall: SCVP.Exercise6/preinstall
 preinstall: testingCPP/preinstall
 
 .PHONY : preinstall
@@ -81,6 +83,7 @@ clean: SCVP.Exercise2/clean
 clean: SCVP.Exercise3/clean
 clean: SCVP.Exercise4/clean
 clean: SCVP.Exercise5/clean
+clean: SCVP.Exercise6/clean
 clean: testingCPP/clean
 
 .PHONY : clean
@@ -192,6 +195,24 @@ SCVP.Exercise5/preinstall:
 SCVP.Exercise5/clean: SCVP.Exercise5/CMakeFiles/exercise5.dir/clean
 
 .PHONY : SCVP.Exercise5/clean
+
+#=============================================================================
+# Directory level rules for directory SCVP.Exercise6
+
+# Recursive "all" directory target.
+SCVP.Exercise6/all: SCVP.Exercise6/CMakeFiles/exercise6.dir/all
+
+.PHONY : SCVP.Exercise6/all
+
+# Recursive "preinstall" directory target.
+SCVP.Exercise6/preinstall:
+
+.PHONY : SCVP.Exercise6/preinstall
+
+# Recursive "clean" directory target.
+SCVP.Exercise6/clean: SCVP.Exercise6/CMakeFiles/exercise6.dir/clean
+
+.PHONY : SCVP.Exercise6/clean
 
 #=============================================================================
 # Directory level rules for directory testingCPP
@@ -374,13 +395,40 @@ SCVP.Exercise5/CMakeFiles/exercise5.dir/clean:
 .PHONY : SCVP.Exercise5/CMakeFiles/exercise5.dir/clean
 
 #=============================================================================
+# Target rules for target SCVP.Exercise6/CMakeFiles/exercise6.dir
+
+# All Build rule for target.
+SCVP.Exercise6/CMakeFiles/exercise6.dir/all:
+	$(MAKE) -f SCVP.Exercise6/CMakeFiles/exercise6.dir/build.make SCVP.Exercise6/CMakeFiles/exercise6.dir/depend
+	$(MAKE) -f SCVP.Exercise6/CMakeFiles/exercise6.dir/build.make SCVP.Exercise6/CMakeFiles/exercise6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=16,17 "Built target exercise6"
+.PHONY : SCVP.Exercise6/CMakeFiles/exercise6.dir/all
+
+# Build rule for subdir invocation for target.
+SCVP.Exercise6/CMakeFiles/exercise6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 SCVP.Exercise6/CMakeFiles/exercise6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 0
+.PHONY : SCVP.Exercise6/CMakeFiles/exercise6.dir/rule
+
+# Convenience name for target.
+exercise6: SCVP.Exercise6/CMakeFiles/exercise6.dir/rule
+
+.PHONY : exercise6
+
+# clean rule for target.
+SCVP.Exercise6/CMakeFiles/exercise6.dir/clean:
+	$(MAKE) -f SCVP.Exercise6/CMakeFiles/exercise6.dir/build.make SCVP.Exercise6/CMakeFiles/exercise6.dir/clean
+.PHONY : SCVP.Exercise6/CMakeFiles/exercise6.dir/clean
+
+#=============================================================================
 # Target rules for target testingCPP/CMakeFiles/testingCPP.dir
 
 # All Build rule for target.
 testingCPP/CMakeFiles/testingCPP.dir/all:
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/depend
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=16,17 "Built target testingCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=18,19 "Built target testingCPP"
 .PHONY : testingCPP/CMakeFiles/testingCPP.dir/all
 
 # Build rule for subdir invocation for target.

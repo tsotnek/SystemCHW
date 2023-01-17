@@ -18,6 +18,9 @@
 /home/tsotne/SystemCExercises/build/SCVP.Exercise5/CMakeFiles/rebuild_cache.dir
 /home/tsotne/SystemCExercises/build/SCVP.Exercise5/CMakeFiles/edit_cache.dir
 /home/tsotne/SystemCExercises/build/SCVP.Exercise5/CMakeFiles/exercise5.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise6/CMakeFiles/rebuild_cache.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise6/CMakeFiles/edit_cache.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise6/CMakeFiles/exercise6.dir
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/rebuild_cache.dir
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/edit_cache.dir
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/testingCPP.dir

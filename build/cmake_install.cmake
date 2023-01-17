@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/tsotne/SystemCExercises/build/SCVP.Exercise3/cmake_install.cmake")
   include("/home/tsotne/SystemCExercises/build/SCVP.Exercise4/cmake_install.cmake")
   include("/home/tsotne/SystemCExercises/build/SCVP.Exercise5/cmake_install.cmake")
+  include("/home/tsotne/SystemCExercises/build/SCVP.Exercise6/cmake_install.cmake")
   include("/home/tsotne/SystemCExercises/build/testingCPP/cmake_install.cmake")
 
 endif()

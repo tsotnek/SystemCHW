@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -108,17 +109,31 @@
 					]
 				},
 				{
-					"build" : "testingCPP",
+					"build" : "SCVP.Exercise6",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 5,
-					"source" : "testingCPP",
+					"source" : "SCVP.Exercise6",
 					"targetIndexes" : 
 					[
 						6
+					]
+				},
+				{
+					"build" : "testingCPP",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "testingCPP",
+					"targetIndexes" : 
+					[
+						7
 					]
 				}
 			],
@@ -132,7 +147,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"directoryIndexes" : 
 					[
@@ -200,11 +216,23 @@
 					[
 						7
 					],
-					"name" : "testingCPP",
+					"name" : "Exercise6",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "testingCPP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
 					]
 				}
 			],
@@ -254,10 +282,17 @@
 				},
 				{
 					"directoryIndex" : 7,
+					"id" : "exercise6::@915990c1727e5f679c8d",
+					"jsonFile" : "target-exercise6-Debug-11549d8e1b07572accd8.json",
+					"name" : "exercise6",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
 					"id" : "testingCPP::@d1b7de945015ce4b4e54",
 					"jsonFile" : "target-testingCPP-Debug-fd3b9a3a4618f6981c73.json",
 					"name" : "testingCPP",
-					"projectIndex" : 5
+					"projectIndex" : 6
 				}
 			]
 		}
