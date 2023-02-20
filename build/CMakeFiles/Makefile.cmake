@@ -9,12 +9,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../Clockgenerator/CMakeLists.txt"
+  "../Exercise7/tlm_at_1/CMakeLists.txt"
+  "../Exercise7/tlm_memory_manager/CMakeLists.txt"
+  "../Exercise7/tlm_protocol_checker/CMakeLists.txt"
   "../HelloSystemC/CMakeLists.txt"
   "../SCVP.Exercise2/CMakeLists.txt"
   "../SCVP.Exercise3/CMakeLists.txt"
   "../SCVP.Exercise4/CMakeLists.txt"
   "../SCVP.Exercise5/CMakeLists.txt"
   "../SCVP.Exercise6/CMakeLists.txt"
+  "../SCVP.Exercise8/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
@@ -57,6 +61,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "SCVP.Exercise5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SCVP.Exercise6/CMakeFiles/CMakeDirectoryInformation.cmake"
   "testingCPP/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise7/tlm_at_1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise7/tlm_memory_manager/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise7/tlm_protocol_checker/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SCVP.Exercise8/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -69,4 +77,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "SCVP.Exercise5/CMakeFiles/exercise5.dir/DependInfo.cmake"
   "SCVP.Exercise6/CMakeFiles/exercise6.dir/DependInfo.cmake"
   "testingCPP/CMakeFiles/testingCPP.dir/DependInfo.cmake"
+  "Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/DependInfo.cmake"
+  "Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/DependInfo.cmake"
+  "Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/DependInfo.cmake"
+  "SCVP.Exercise8/CMakeFiles/exercise8.dir/DependInfo.cmake"
   )

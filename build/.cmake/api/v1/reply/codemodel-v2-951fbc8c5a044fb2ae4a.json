@@ -15,7 +15,11 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11,
+						12
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -133,6 +137,62 @@
 					"source" : "testingCPP",
 					"targetIndexes" : 
 					[
+						8
+					]
+				},
+				{
+					"build" : "Exercise7/tlm_at_1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercise7/tlm_at_1",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Exercise7/tlm_memory_manager",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercise7/tlm_memory_manager",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Exercise7/tlm_protocol_checker",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Exercise7/tlm_protocol_checker",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "SCVP.Exercise8",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "SCVP.Exercise8",
+					"targetIndexes" : 
+					[
 						7
 					]
 				}
@@ -148,19 +208,26 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"directoryIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						9,
+						10,
+						11
 					],
 					"name" : "SCVP_Artifacts",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						9,
+						10,
+						11
 					]
 				},
 				{
@@ -232,6 +299,18 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "Exercise8",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						7
 					]
 				}
@@ -288,11 +367,39 @@
 					"projectIndex" : 5
 				},
 				{
+					"directoryIndex" : 12,
+					"id" : "exercise8::@735f9489f23c4653475c",
+					"jsonFile" : "target-exercise8-Debug-f6291a5c3fadacf18e63.json",
+					"name" : "exercise8",
+					"projectIndex" : 7
+				},
+				{
 					"directoryIndex" : 8,
 					"id" : "testingCPP::@d1b7de945015ce4b4e54",
 					"jsonFile" : "target-testingCPP-Debug-fd3b9a3a4618f6981c73.json",
 					"name" : "testingCPP",
 					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "tlm_at_1::@222f5a8e566ddec13a61",
+					"jsonFile" : "target-tlm_at_1-Debug-64d80d95f2688e21c7a6.json",
+					"name" : "tlm_at_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "tlm_memory_manager::@c94282a181427b0e7ac4",
+					"jsonFile" : "target-tlm_memory_manager-Debug-9c30db873ee6bba4e947.json",
+					"name" : "tlm_memory_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tlm_protocol_checker::@4774cc1ab7bcf974a8e2",
+					"jsonFile" : "target-tlm_protocol_checker-Debug-eefeaea52e7d0947c904.json",
+					"name" : "tlm_protocol_checker",
+					"projectIndex" : 0
 				}
 			]
 		}

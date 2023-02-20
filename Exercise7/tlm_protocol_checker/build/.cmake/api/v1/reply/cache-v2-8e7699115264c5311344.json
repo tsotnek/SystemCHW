@@ -34,6 +34,18 @@
 			"value" : "/usr/bin/ar"
 		},
 		{
+			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "For backwards compatibility, what version of CMake commands and syntax should this version of CMake try to support."
+				}
+			],
+			"type" : "STRING",
+			"value" : "2.4"
+		},
+		{
 			"name" : "CMAKE_BUILD_TYPE",
 			"properties" : 
 			[
@@ -55,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tsotne/SystemCExercises/build"
+			"value" : "/home/tsotne/SCVP.artifacts/tlm_protocol_checker/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/tsotne/SystemCExercises"
+			"value" : "/home/tsotne/SCVP.artifacts/tlm_protocol_checker"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -759,7 +771,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "9"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -839,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "SCVP_Artifacts"
+			"value" : "Project"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1122,7 +1134,31 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Exercise2_BINARY_DIR",
+			"name" : "EXECUTABLE_OUTPUT_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Single output directory for building all executables."
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "LIBRARY_OUTPUT_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Single output directory for building all libraries."
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "Project_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1131,10 +1167,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise2"
+			"value" : "/home/tsotne/SCVP.artifacts/tlm_protocol_checker/build"
 		},
 		{
-			"name" : "Exercise2_SOURCE_DIR",
+			"name" : "Project_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1143,175 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise2"
-		},
-		{
-			"name" : "Exercise3_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise3"
-		},
-		{
-			"name" : "Exercise3_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise3"
-		},
-		{
-			"name" : "Exercise4_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise4"
-		},
-		{
-			"name" : "Exercise4_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise4"
-		},
-		{
-			"name" : "Exercise5_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise5"
-		},
-		{
-			"name" : "Exercise5_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise5"
-		},
-		{
-			"name" : "Exercise6_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/SCVP.Exercise6"
-		},
-		{
-			"name" : "Exercise6_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/SCVP.Exercise6"
-		},
-		{
-			"name" : "SCVP_Artifacts_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build"
-		},
-		{
-			"name" : "SCVP_Artifacts_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises"
-		},
-		{
-			"name" : "SYSTEMC_AMS_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "SYSTEMC_AMS_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "SYSTEMC_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so"
-		},
-		{
-			"name" : "testingCPP_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/build/testingCPP"
-		},
-		{
-			"name" : "testingCPP_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/tsotne/SystemCExercises/testingCPP"
+			"value" : "/home/tsotne/SCVP.artifacts/tlm_protocol_checker"
 		}
 	],
 	"kind" : "cache",

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/main.cpp
+iostream
+-
+systemc.h
+-
+tlm.h
+-
+tlm2_base_protocol_checker.h
+/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/tlm2_base_protocol_checker.h
+
+/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/tlm2_base_protocol_checker.h
+systemc
+/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/systemc
+tlm.h
+/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/tlm.h
+sstream
+-
+map
+-
+

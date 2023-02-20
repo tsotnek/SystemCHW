@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/tlm_at_1.dir/main.cpp.o CMakeFiles/tlm_at_1.dir/__/tlm_memory_manager/memory_manager.cpp.o  -o tlm_at_1  -Wl,-rpath,/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64 /mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so 

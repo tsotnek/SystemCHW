@@ -47,6 +47,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/tsotne/SystemCExercises/build/SCVP.Exercise5/cmake_install.cmake")
   include("/home/tsotne/SystemCExercises/build/SCVP.Exercise6/cmake_install.cmake")
   include("/home/tsotne/SystemCExercises/build/testingCPP/cmake_install.cmake")
+  include("/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1/cmake_install.cmake")
+  include("/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager/cmake_install.cmake")
+  include("/home/tsotne/SystemCExercises/build/Exercise7/tlm_protocol_checker/cmake_install.cmake")
+  include("/home/tsotne/SystemCExercises/build/SCVP.Exercise8/cmake_install.cmake")
 
 endif()
 

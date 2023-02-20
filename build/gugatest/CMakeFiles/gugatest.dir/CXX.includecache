@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/gugatest/Adder.h
+systemc.h
+-
+
+/home/tsotne/SystemCExercises/gugatest/AdderMain.cpp
+Adder.h
+/home/tsotne/SystemCExercises/gugatest/Adder.h
+TestbenchAdder.h
+/home/tsotne/SystemCExercises/gugatest/TestbenchAdder.h
+iostream
+-
+string
+-
+
+/home/tsotne/SystemCExercises/gugatest/TestbenchAdder.h
+systemc.h
+-
+

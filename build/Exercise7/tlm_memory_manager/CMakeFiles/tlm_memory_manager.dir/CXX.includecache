@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/main.cpp
+iostream
+-
+systemc.h
+-
+tlm.h
+-
+memory_manager.h
+/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.h
+
+/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.cpp
+iostream
+-
+memory_manager.h
+/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.h
+
+/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.h
+tlm.h
+-
+vector
+-
+

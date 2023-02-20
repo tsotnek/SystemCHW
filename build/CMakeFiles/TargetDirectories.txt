@@ -24,3 +24,15 @@
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/rebuild_cache.dir
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/edit_cache.dir
 /home/tsotne/SystemCExercises/build/testingCPP/CMakeFiles/testingCPP.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1/CMakeFiles/rebuild_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1/CMakeFiles/edit_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager/CMakeFiles/rebuild_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager/CMakeFiles/edit_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_protocol_checker/CMakeFiles/rebuild_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_protocol_checker/CMakeFiles/edit_cache.dir
+/home/tsotne/SystemCExercises/build/Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise8/CMakeFiles/rebuild_cache.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise8/CMakeFiles/edit_cache.dir
+/home/tsotne/SystemCExercises/build/SCVP.Exercise8/CMakeFiles/exercise8.dir

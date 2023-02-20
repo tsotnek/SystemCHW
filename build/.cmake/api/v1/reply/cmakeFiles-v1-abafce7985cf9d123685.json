@@ -154,6 +154,18 @@
 		},
 		{
 			"path" : "testingCPP/CMakeLists.txt"
+		},
+		{
+			"path" : "Exercise7/tlm_at_1/CMakeLists.txt"
+		},
+		{
+			"path" : "Exercise7/tlm_memory_manager/CMakeLists.txt"
+		},
+		{
+			"path" : "Exercise7/tlm_protocol_checker/CMakeLists.txt"
+		},
+		{
+			"path" : "SCVP.Exercise8/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

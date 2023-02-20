@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/tlm_protocol_checker.dir/main.cpp.o  -o tlm_protocol_checker  -Wl,-rpath,/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64 /mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so 

@@ -28,5 +28,10 @@ add_subdirectory(SCVP.Exercise4)
 add_subdirectory(SCVP.Exercise5)
 add_subdirectory(SCVP.Exercise6)
 add_subdirectory(testingCPP)
+add_subdirectory(Exercise7/tlm_at_1)
+add_subdirectory(Exercise7/tlm_memory_manager)
+add_subdirectory(Exercise7/tlm_protocol_checker)
+add_subdirectory(SCVP.Exercise8)
+
 
 

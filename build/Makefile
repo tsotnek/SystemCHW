@@ -214,6 +214,58 @@ testingCPP/fast:
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/build
 .PHONY : testingCPP/fast
 
+#=============================================================================
+# Target rules for targets named tlm_at_1
+
+# Build rule for target.
+tlm_at_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tlm_at_1
+.PHONY : tlm_at_1
+
+# fast build rule for target.
+tlm_at_1/fast:
+	$(MAKE) -f Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build.make Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build
+.PHONY : tlm_at_1/fast
+
+#=============================================================================
+# Target rules for targets named tlm_memory_manager
+
+# Build rule for target.
+tlm_memory_manager: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tlm_memory_manager
+.PHONY : tlm_memory_manager
+
+# fast build rule for target.
+tlm_memory_manager/fast:
+	$(MAKE) -f Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build.make Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build
+.PHONY : tlm_memory_manager/fast
+
+#=============================================================================
+# Target rules for targets named tlm_protocol_checker
+
+# Build rule for target.
+tlm_protocol_checker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tlm_protocol_checker
+.PHONY : tlm_protocol_checker
+
+# fast build rule for target.
+tlm_protocol_checker/fast:
+	$(MAKE) -f Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build.make Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build
+.PHONY : tlm_protocol_checker/fast
+
+#=============================================================================
+# Target rules for targets named exercise8
+
+# Build rule for target.
+exercise8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 exercise8
+.PHONY : exercise8
+
+# fast build rule for target.
+exercise8/fast:
+	$(MAKE) -f SCVP.Exercise8/CMakeFiles/exercise8.dir/build.make SCVP.Exercise8/CMakeFiles/exercise8.dir/build
+.PHONY : exercise8/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -230,6 +282,10 @@ help:
 	@echo "... exercise5"
 	@echo "... exercise6"
 	@echo "... testingCPP"
+	@echo "... tlm_at_1"
+	@echo "... tlm_memory_manager"
+	@echo "... tlm_protocol_checker"
+	@echo "... exercise8"
 .PHONY : help
 
 

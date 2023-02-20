@@ -61,6 +61,10 @@ all: SCVP.Exercise4/all
 all: SCVP.Exercise5/all
 all: SCVP.Exercise6/all
 all: testingCPP/all
+all: Exercise7/tlm_at_1/all
+all: Exercise7/tlm_memory_manager/all
+all: Exercise7/tlm_protocol_checker/all
+all: SCVP.Exercise8/all
 
 .PHONY : all
 
@@ -73,6 +77,10 @@ preinstall: SCVP.Exercise4/preinstall
 preinstall: SCVP.Exercise5/preinstall
 preinstall: SCVP.Exercise6/preinstall
 preinstall: testingCPP/preinstall
+preinstall: Exercise7/tlm_at_1/preinstall
+preinstall: Exercise7/tlm_memory_manager/preinstall
+preinstall: Exercise7/tlm_protocol_checker/preinstall
+preinstall: SCVP.Exercise8/preinstall
 
 .PHONY : preinstall
 
@@ -85,6 +93,10 @@ clean: SCVP.Exercise4/clean
 clean: SCVP.Exercise5/clean
 clean: SCVP.Exercise6/clean
 clean: testingCPP/clean
+clean: Exercise7/tlm_at_1/clean
+clean: Exercise7/tlm_memory_manager/clean
+clean: Exercise7/tlm_protocol_checker/clean
+clean: SCVP.Exercise8/clean
 
 .PHONY : clean
 
@@ -105,6 +117,60 @@ Clockgenerator/preinstall:
 Clockgenerator/clean: Clockgenerator/CMakeFiles/Clockgenerator.dir/clean
 
 .PHONY : Clockgenerator/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise7/tlm_at_1
+
+# Recursive "all" directory target.
+Exercise7/tlm_at_1/all: Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/all
+
+.PHONY : Exercise7/tlm_at_1/all
+
+# Recursive "preinstall" directory target.
+Exercise7/tlm_at_1/preinstall:
+
+.PHONY : Exercise7/tlm_at_1/preinstall
+
+# Recursive "clean" directory target.
+Exercise7/tlm_at_1/clean: Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/clean
+
+.PHONY : Exercise7/tlm_at_1/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise7/tlm_memory_manager
+
+# Recursive "all" directory target.
+Exercise7/tlm_memory_manager/all: Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/all
+
+.PHONY : Exercise7/tlm_memory_manager/all
+
+# Recursive "preinstall" directory target.
+Exercise7/tlm_memory_manager/preinstall:
+
+.PHONY : Exercise7/tlm_memory_manager/preinstall
+
+# Recursive "clean" directory target.
+Exercise7/tlm_memory_manager/clean: Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/clean
+
+.PHONY : Exercise7/tlm_memory_manager/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise7/tlm_protocol_checker
+
+# Recursive "all" directory target.
+Exercise7/tlm_protocol_checker/all: Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/all
+
+.PHONY : Exercise7/tlm_protocol_checker/all
+
+# Recursive "preinstall" directory target.
+Exercise7/tlm_protocol_checker/preinstall:
+
+.PHONY : Exercise7/tlm_protocol_checker/preinstall
+
+# Recursive "clean" directory target.
+Exercise7/tlm_protocol_checker/clean: Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/clean
+
+.PHONY : Exercise7/tlm_protocol_checker/clean
 
 #=============================================================================
 # Directory level rules for directory HelloSystemC
@@ -213,6 +279,24 @@ SCVP.Exercise6/preinstall:
 SCVP.Exercise6/clean: SCVP.Exercise6/CMakeFiles/exercise6.dir/clean
 
 .PHONY : SCVP.Exercise6/clean
+
+#=============================================================================
+# Directory level rules for directory SCVP.Exercise8
+
+# Recursive "all" directory target.
+SCVP.Exercise8/all: SCVP.Exercise8/CMakeFiles/exercise8.dir/all
+
+.PHONY : SCVP.Exercise8/all
+
+# Recursive "preinstall" directory target.
+SCVP.Exercise8/preinstall:
+
+.PHONY : SCVP.Exercise8/preinstall
+
+# Recursive "clean" directory target.
+SCVP.Exercise8/clean: SCVP.Exercise8/CMakeFiles/exercise8.dir/clean
+
+.PHONY : SCVP.Exercise8/clean
 
 #=============================================================================
 # Directory level rules for directory testingCPP
@@ -428,7 +512,7 @@ SCVP.Exercise6/CMakeFiles/exercise6.dir/clean:
 testingCPP/CMakeFiles/testingCPP.dir/all:
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/depend
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=18,19 "Built target testingCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=21,22 "Built target testingCPP"
 .PHONY : testingCPP/CMakeFiles/testingCPP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -447,6 +531,114 @@ testingCPP: testingCPP/CMakeFiles/testingCPP.dir/rule
 testingCPP/CMakeFiles/testingCPP.dir/clean:
 	$(MAKE) -f testingCPP/CMakeFiles/testingCPP.dir/build.make testingCPP/CMakeFiles/testingCPP.dir/clean
 .PHONY : testingCPP/CMakeFiles/testingCPP.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir
+
+# All Build rule for target.
+Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/all:
+	$(MAKE) -f Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build.make Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/depend
+	$(MAKE) -f Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build.make Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=23,24,25 "Built target tlm_at_1"
+.PHONY : Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 0
+.PHONY : Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/rule
+
+# Convenience name for target.
+tlm_at_1: Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/rule
+
+.PHONY : tlm_at_1
+
+# clean rule for target.
+Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/clean:
+	$(MAKE) -f Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/build.make Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/clean
+.PHONY : Exercise7/tlm_at_1/CMakeFiles/tlm_at_1.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir
+
+# All Build rule for target.
+Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/all:
+	$(MAKE) -f Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build.make Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/depend
+	$(MAKE) -f Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build.make Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=26,27,28 "Built target tlm_memory_manager"
+.PHONY : Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 0
+.PHONY : Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/rule
+
+# Convenience name for target.
+tlm_memory_manager: Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/rule
+
+.PHONY : tlm_memory_manager
+
+# clean rule for target.
+Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/clean:
+	$(MAKE) -f Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/build.make Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/clean
+.PHONY : Exercise7/tlm_memory_manager/CMakeFiles/tlm_memory_manager.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir
+
+# All Build rule for target.
+Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/all:
+	$(MAKE) -f Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build.make Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/depend
+	$(MAKE) -f Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build.make Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=29,30 "Built target tlm_protocol_checker"
+.PHONY : Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 0
+.PHONY : Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/rule
+
+# Convenience name for target.
+tlm_protocol_checker: Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/rule
+
+.PHONY : tlm_protocol_checker
+
+# clean rule for target.
+Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/clean:
+	$(MAKE) -f Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/build.make Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/clean
+.PHONY : Exercise7/tlm_protocol_checker/CMakeFiles/tlm_protocol_checker.dir/clean
+
+#=============================================================================
+# Target rules for target SCVP.Exercise8/CMakeFiles/exercise8.dir
+
+# All Build rule for target.
+SCVP.Exercise8/CMakeFiles/exercise8.dir/all:
+	$(MAKE) -f SCVP.Exercise8/CMakeFiles/exercise8.dir/build.make SCVP.Exercise8/CMakeFiles/exercise8.dir/depend
+	$(MAKE) -f SCVP.Exercise8/CMakeFiles/exercise8.dir/build.make SCVP.Exercise8/CMakeFiles/exercise8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsotne/SystemCExercises/build/CMakeFiles --progress-num=18,19,20 "Built target exercise8"
+.PHONY : SCVP.Exercise8/CMakeFiles/exercise8.dir/all
+
+# Build rule for subdir invocation for target.
+SCVP.Exercise8/CMakeFiles/exercise8.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 SCVP.Exercise8/CMakeFiles/exercise8.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsotne/SystemCExercises/build/CMakeFiles 0
+.PHONY : SCVP.Exercise8/CMakeFiles/exercise8.dir/rule
+
+# Convenience name for target.
+exercise8: SCVP.Exercise8/CMakeFiles/exercise8.dir/rule
+
+.PHONY : exercise8
+
+# clean rule for target.
+SCVP.Exercise8/CMakeFiles/exercise8.dir/clean:
+	$(MAKE) -f SCVP.Exercise8/CMakeFiles/exercise8.dir/build.make SCVP.Exercise8/CMakeFiles/exercise8.dir/clean
+.PHONY : SCVP.Exercise8/CMakeFiles/exercise8.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

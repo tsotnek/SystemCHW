@@ -239,6 +239,18 @@ Exercise6_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build/SCVP.Exercise6
 Exercise6_SOURCE_DIR:STATIC=/home/tsotne/SystemCExercises/SCVP.Exercise6
 
 //Value Computed by CMake
+Exercise8_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build/SCVP.Exercise8
+
+//Value Computed by CMake
+Exercise8_SOURCE_DIR:STATIC=/home/tsotne/SystemCExercises/SCVP.Exercise8
+
+//Value Computed by CMake
+Gugatest_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build/gugatest
+
+//Value Computed by CMake
+Gugatest_SOURCE_DIR:STATIC=/home/tsotne/SystemCExercises/gugatest
+
+//Value Computed by CMake
 SCVP_Artifacts_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build
 
 //Value Computed by CMake
@@ -249,6 +261,12 @@ SYSTEMC_AMS_LIBRARY:FILEPATH=SYSTEMC_AMS_LIBRARY-NOTFOUND
 
 //Path to a library.
 SYSTEMC_LIBRARY:FILEPATH=/mnt/c/Users/tsotn/Desktop/TUKFiles/SystemC/systemc-2.3.3/lib-linux64/libsystemc.so
+
+//Value Computed by CMake
+gugatest_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build/gugatest
+
+//Value Computed by CMake
+gugatest_SOURCE_DIR:STATIC=/home/tsotne/SystemCExercises/gugatest
 
 //Value Computed by CMake
 testingCPP_BINARY_DIR:STATIC=/home/tsotne/SystemCExercises/build/testingCPP
@@ -361,7 +379,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

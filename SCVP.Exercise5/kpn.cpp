@@ -33,10 +33,11 @@ template<class T> void kpn<T>::kpn_split() // writes
         T bTEMP = b.read();
         a.write(bTEMP);
         d.write(bTEMP);
-        e.write(bTEMP);
-        // e = bTEMP;
+        // e.write(bTEMP);
+        e = bTEMP;
 
-        std::cout << "The signal e is: " << e.read() << std::endl;
+        // std::cout << "The signal e is: " << e.read() << std::endl;
+        std::cout << "The signal e is: " << e << std::endl;
     }
     sc_stop();
 }

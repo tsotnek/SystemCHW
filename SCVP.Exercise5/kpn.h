@@ -9,8 +9,8 @@ SC_MODULE(kpn)
 private:
     // ADD THINGS HERE
     sc_fifo<T> a, b, c, d;
-    sc_signal<T> e;
-    //T e;
+    // sc_signal<T> e;
+    T e;
     
     void kpn_add();
 
@@ -20,7 +20,7 @@ private:
 
 public:
 
-    SC_CTOR(kpn) : a(10), b(10), c(10), d(10), e("e", 0) // : ADD THINGS HERE
+    SC_CTOR(kpn) : a(10), b(10), c(10), d(10), e(0) // : ADD THINGS HERE
     {
 
        b.write(1);

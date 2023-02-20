@@ -53,5 +53,40 @@
   "directory": "/home/tsotne/SystemCExercises/build/testingCPP",
   "command": "/usr/bin/g++    -g   -o CMakeFiles/testingCPP.dir/main.cpp.o -c /home/tsotne/SystemCExercises/testingCPP/main.cpp",
   "file": "/home/tsotne/SystemCExercises/testingCPP/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/tlm_at_1.dir/main.cpp.o -c /home/tsotne/SystemCExercises/Exercise7/tlm_at_1/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/Exercise7/tlm_at_1/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Exercise7/tlm_at_1",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/tlm_at_1.dir/__/tlm_memory_manager/memory_manager.cpp.o -c /home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.cpp",
+  "file": "/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/tlm_memory_manager.dir/main.cpp.o -c /home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Exercise7/tlm_memory_manager",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/tlm_memory_manager.dir/memory_manager.cpp.o -c /home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.cpp",
+  "file": "/home/tsotne/SystemCExercises/Exercise7/tlm_memory_manager/memory_manager.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/Exercise7/tlm_protocol_checker",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/tlm_protocol_checker.dir/main.cpp.o -c /home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/Exercise7/tlm_protocol_checker/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise8",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise8.dir/main.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise8/main.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise8/main.cpp"
+},
+{
+  "directory": "/home/tsotne/SystemCExercises/build/SCVP.Exercise8",
+  "command": "/usr/bin/g++   -I/include  -g   -o CMakeFiles/exercise8.dir/memory_manager.cpp.o -c /home/tsotne/SystemCExercises/SCVP.Exercise8/memory_manager.cpp",
+  "file": "/home/tsotne/SystemCExercises/SCVP.Exercise8/memory_manager.cpp"
 }
 ]

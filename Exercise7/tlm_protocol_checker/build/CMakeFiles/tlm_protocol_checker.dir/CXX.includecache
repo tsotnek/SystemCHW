@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsotne/SCVP.artifacts/tlm_protocol_checker/main.cpp
+iostream
+-
+systemc.h
+-
+tlm.h
+-
+tlm2_base_protocol_checker.h
+/home/tsotne/SCVP.artifacts/tlm_protocol_checker/tlm2_base_protocol_checker.h
+
+/home/tsotne/SCVP.artifacts/tlm_protocol_checker/tlm2_base_protocol_checker.h
+systemc
+/home/tsotne/SCVP.artifacts/tlm_protocol_checker/systemc
+tlm.h
+/home/tsotne/SCVP.artifacts/tlm_protocol_checker/tlm.h
+sstream
+-
+map
+-
+

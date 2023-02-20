@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tsotne/SCVP.artifacts/tlm_protocol_checker/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/tlm_protocol_checker.dir/main.o -c /home/tsotne/SCVP.artifacts/tlm_protocol_checker/main.cpp",
+  "file": "/home/tsotne/SCVP.artifacts/tlm_protocol_checker/main.cpp"
+}
+]
